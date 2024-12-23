@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile">
+            <img src="IMG20221112143851.jpg" alt="Profile Photo" class="profile-photo">
+            <p> Currently pursuing bachelor's degree in Computer Science & Engineering.
+                Loves to handle exceptional situations in professional as well as personal life.
+                Creative and enthusiastic learner with a passion for coding, proficient in Data Structure & Algorithms and ready to take on new challenges and constantly improving skills.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>The Library Management System is a C++ project designed to streamline library operations. It allows users to manage book records efficiently through functionalities like adding new books, displaying all books, and searching for books by ID, title, or author. The system also supports modifying book details and maintaining a list of disposed books. It uses file handling to store and retrieve data persistently, ensuring records are not lost between sessions. The program is menu-driven with options to navigate and perform various operations, making it user-friendly and practical for small-scale library management.</p>
+        </div>
+        <div class="project">
+            <h3>Wi-Fi Talking Robot</h3>
+            <p>The Wi-Fi Talking Robot for Old People Education is an innovative 
+                technology that aims to improve the quality of life of elderly people by 
+                providing them with a new way of learning and socializing.
+                This robot is designed to be user-friendly and easy to operate, making it 
+                an ideal tool for seniors who may not be tech-savvy. As we age, it 
+                becomes increasingly difficult to stay connected with our loved ones and 
+                the world around us.
+                This is particularly true for seniors who may have limited mobility or live 
+                in remote areas. However, recent advances in technology have made it 
+                possible for seniors to stay connected like never before One such 
+                innovation is the Wi-Fi talking robot for old people.
+                </p>
+        </div>
+        <div class="project">
+            <h3>Hangman Game</h3>
+            <p>This project is a Python implementation of the classic Hangman word-guessing game, enhanced with a hint feature to assist players.
+                The game randomly selects a word from a predefined list and provides the player with a clue (a hint) about the word's meaning at the start of the game.
+                As the player guesses letters, the program displays the word with correctly guessed letters and asterisks for unguessed ones.
+
+                The player has a limited number of wrong guesses (6 by default). 
+                After 3 incorrect guesses, the game provides a hint by revealing a random unguessed letter from the word to help the player continue.
+                The game ends when the player either guesses all the letters correctly or exhausts their wrong guesses.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
